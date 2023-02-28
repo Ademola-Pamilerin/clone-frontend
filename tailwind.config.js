@@ -14,17 +14,22 @@ module.exports = {
         "middle": "90vh",
         "header": "7vh",
         "min": "92vh",
-        "minV":"50vh"
+        "minV": "50vh",
+        "minL": "70vh"
       },
       screens: {
         xs: "420px",
         sm: "480px",
-        mr:"700px",
+        mr: "700px",
         md: "800px",
         lg: "976px",
         xlg: "1350px",
         xl: "1440px"
       },
+      translate: {
+        offScreenLeft: "-999999px",
+        offScreenRight: "-999999px"
+      }
     },
     plugins: [],
   }

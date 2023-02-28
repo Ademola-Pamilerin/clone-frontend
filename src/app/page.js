@@ -8,7 +8,7 @@ const Home = () => {
     <div className="auto">
       <div className="bg-gray-100 h-auto">
         <StartPage>
-          <Header />
+          <Header active={"home"} />
         </StartPage>
         <StartPageBody />
       </div>
