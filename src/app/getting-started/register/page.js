@@ -34,12 +34,12 @@ const Register = () => {
         event.preventDefault()
     }
 
-    return (<div className=" relative w-full sm:h-min h-auto flex flex-col items-center justify-center bg-cyan-900 mt-1">
-        <div className="w-full relative flex flex-col lg:justify-center lg:items-center items-center">
-            <div className="lg:hidden block font-bold relative z-20 text-center mb-4 w-full text-orange-400 mr:text-3xl text-xl">
+    return (<div className=" relative w-full lg:h-minZ h-auto flex flex-col items-center justify-center bg-cyan-900 mt-1">
+        <div className="w-full h-auto relative flex flex-col lg:justify-center lg:items-center items-center">
+            <div className="lg:hidden block md:mt-0 mt-5 font-bold relative z-20 text-center mb-4 w-full text-orange-400 mr:text-3xl text-xl">
                 Welcome Back 😘
             </div>
-            <div className="sm:w-4/5 w-full lg:flex lg:h-minL lg:flex-row-reverse lg:shadow-lg shadow-none lg:shadow-gray-800">
+            <div className="sm:w-4/5 w-full lg:flex lg:h-auto lg:flex-row-reverse lg:shadow-lg shadow-none lg:shadow-gray-800">
                 <div className="lg:w-1/2 lg:h-minL w-full h-minV relative">
                     <Image className={`${currentIndex === 0 ? "translate-x-0" : currentIndex === 1 ? "translate-x-offScreenLeft" : "translate-x-offScreenRight"}`} src={ImageBack} alt={"Background Image"} sizes={"100%"} fill priority style={{
                         objectFit: "cover",

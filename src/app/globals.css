@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 
-.ade{
-    color:rgb(45, 50, 80)
+::-webkit-scrollbar {
+  width: 5px;
+  color: "#1E1E1E";
+  background-color: rgb(15 23 42);
+}
+
+.timeline::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  color: "#1E1E1E";
+  background-color: rgb(15 23 42);
+}
+
+::-webkit-scrollbar-thumb {
+  color: "#1E1E1E";
+  background-color: rgb(15 23 42);
 }
